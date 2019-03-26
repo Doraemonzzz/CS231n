@@ -124,7 +124,8 @@ class KNearestNeighbor(object):
     #       and two broadcast sums.                                         #
     #########################################################################
     test = np.sum(X ** 2, axis=1).reshape(-1, 1)
-    train = np.sum(self.X_train ** 2, axis=1).reshape(-1, 1)
+    #train = np.sum(self.X_train ** 2, axis=1).reshape(-1, 1)
+	train = np.sum(self.X_train ** 2, axis=1).reshape(1, -1)
     dists = np.sqrt(test + train.T - 2 * X.dot(self.X_train.T))
     #########################################################################
     #                         END OF YOUR CODE                              #
