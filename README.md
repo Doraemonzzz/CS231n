@@ -14,9 +14,14 @@
 
 
 
-- 2019/3/2：上传作业1，
+- 2019/3/2：上传作业1
   - 习题分析：http://doraemonzzz.com/2019/03/02/CS231%20%E4%BD%9C%E4%B8%9A1/
   - 数据集下载地址：http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+- 2019/3/27：上传作业2
+  - 习题分析：https://doraemonzzz.com/2019/03/24/CS231%20%E4%BD%9C%E4%B8%9A2/
+- 2019/4/4：上传作业1
+
+
 
 
 
